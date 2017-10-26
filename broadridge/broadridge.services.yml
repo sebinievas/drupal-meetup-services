@@ -1,0 +1,4 @@
+services:
+  broadridge.client:
+    class: Drupal\broadridge\Client
+    arguments: ['@http_client', '@config.factory', '@state', '@cache.default', '@serialization.json']

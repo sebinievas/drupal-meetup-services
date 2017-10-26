@@ -1,0 +1,6 @@
+name: Meetup Service
+type: module
+description: 'A simple service that likes to give us compliments.'
+
+package: meetup
+core: 8.x

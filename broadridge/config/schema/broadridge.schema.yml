@@ -1,0 +1,13 @@
+broadridge.settings:
+  type: config_object
+  label: 'Broadridge Settings'
+  mapping:
+    access_token:
+        type: string
+        label: 'Broadridge API Access Token'
+    api_version:
+      type: string
+      label: 'Broadridge API API Version'
+    api_endpoint:
+      type: string
+      label: 'Broadridge API endpoint URL'

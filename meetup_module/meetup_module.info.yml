@@ -1,0 +1,6 @@
+name: Meetup Module
+type: module
+description: 'A simple module to house meetup examples.'
+
+package: meetup
+core: 8.x

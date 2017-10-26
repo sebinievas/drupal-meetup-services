@@ -1,0 +1,11 @@
+broadridge.admin_config_broadridge:
+  route_name: broadridge.admin_config_broadridge
+  parent: system.admin_config
+  title: Broadridge
+  description: 'Manage settings for Broadridge API.'
+
+broadridge.global_settings:
+  route_name: broadridge.global_settings
+  parent: broadridge.admin_config_broadridge
+  title: Broadridge Settings
+  description: 'Manage global settings for Broadridge API.'

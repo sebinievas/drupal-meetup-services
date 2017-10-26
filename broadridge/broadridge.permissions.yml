@@ -1,0 +1,4 @@
+administer broadridge:
+  title: 'administer broadridge'
+  description: 'Administer Broadridge integration'
+  restrict access: TRUE

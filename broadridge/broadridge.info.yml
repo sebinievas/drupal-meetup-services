@@ -1,0 +1,6 @@
+name: 'Broadridge API'
+description: 'Client for communicating with Broadridge API'
+package: Custom
+
+type: module
+core: 8.x

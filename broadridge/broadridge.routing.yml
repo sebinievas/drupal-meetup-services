@@ -1,0 +1,17 @@
+broadridge.admin_config_broadridge:
+  path: '/admin/config/broadridge'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Broadridge API'
+    _description: 'Manage settings for Broadridge API.'
+  requirements:
+    _permission: 'administer broadridge'
+
+broadridge.global_settings:
+  path: '/admin/config/broadridge/settings'
+  defaults:
+    _form: '\Drupal\broadridge\Form\SettingsForm'
+    _title: 'Global Settings'
+    _description: 'Manage global settings for Broadridge API.'
+  requirements:
+    _permission: 'administer broadridge'
